@@ -1,0 +1,30 @@
+ name: скафандр ВКС
+  description:Скафандр Военно-Космического Флота СССП!
+  components:
+  - type: Sprite
+    sprite: Andromeda/lysnost's nedo-shitcode/vks.rsi
+  - type: Clothing
+    sprite: Andromeda/lysnost's nedo-shitcode/vks.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.4
+        Cold: 0.25
+        Shock: 0.0
+        Radiation: 0.65
+        Caustic: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHarduistSSSP
