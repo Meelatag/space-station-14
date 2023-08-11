@@ -1,0 +1,13 @@
+- type: reaction
+  id: Aphrodisiac
+  reactants:
+    PolytrinicAcid:
+      amount: 10 
+    FluorosulfuricAcid:
+      amount: 10
+    Ichor:
+      amount: 10    
+    Plasma:
+      amount: 10  
+  products:
+    Aphrodisiac: 5
