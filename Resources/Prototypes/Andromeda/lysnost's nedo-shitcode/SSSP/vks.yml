@@ -1,3 +1,6 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSSSP
  name: скафандр ВКС
   description:Скафандр Военно-Космического Флота СССП!
   components:
