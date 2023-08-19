@@ -76,3 +76,16 @@
       emergencyLightColor: lime
       forceEnableEmergencyLights: true
       shuttleTime: 120000
+      # DiDi custom M.A.S.A.C. level
+    M.A.S.A.C.:
+      announcement: alert-level-m.a.s.a.c.-announcement
+      selectable: false
+      sound:
+        path: /Audio/Misc/M.A.S.A.C._alert.ogg
+      params:
+         volume: -2
+      disableSelection: true
+      color: White
+      emergencyLightColor: LightWhite
+      forceEnableEmergencyLights: true
+      shuttleTime: 18000
