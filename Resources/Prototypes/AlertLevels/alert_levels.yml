@@ -86,6 +86,6 @@
          volume: -2
       disableSelection: true
       color: White
-      emergencyLightColor: LightWhite
+      emergencyLightColor: White
       forceEnableEmergencyLights: true
       shuttleTime: 18000
